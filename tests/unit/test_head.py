@@ -9,6 +9,7 @@ class TestHead(unittest.TestCase):
     """
     This TestCase is used to test the Head in TabTransformer.
     """
+
     def test_forward1(self):
         x = torch.rand((7, 128))
         head1 = Head(128, 1024, 128)
