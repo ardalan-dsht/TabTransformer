@@ -38,6 +38,7 @@ class TabTransformerDataset(Dataset):
     for batch in dataloader:
         # Perform operations on batch
     """
+
     def __init__(
         self,
         labels: pd.Series,
