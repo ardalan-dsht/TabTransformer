@@ -23,7 +23,7 @@ class TestTabTransformer(unittest.TestCase):
             ]
         )
         tab_transformer1 = TabTransformer(
-            100, "categorical", 4, None, 4, 32, 1, 0.0, 64, 2
+            100, 4,"categorical", None, 4, 32, 1, 0.0, 64, 2
         )
         self.assertEqual(
             tab_transformer1(categorical).shape,
