@@ -35,3 +35,20 @@ labels = dataset["Survived"].squeeze()
 # Create a TabTransformerDataset object. (Does not need custom collate-fn)
 dataset = TabTransformerDataset(labels, categorical_dataset, numerical_dataset)
 ```
+
+# Contributing
+We welcome contributions to enhance the TabTransformer repository. If you wish to contribute, please follow these guidelines:
+Fork the repository and create a new branch for your feature or bug fix.
+Ensure your code follows the existing style and conventions.
+Write clear and concise commit messages.
+Test your changes thoroughly before submitting a pull request.
+Provide detailed descriptions of your changes in the pull request.  
+
+# License
+This project is licensed under the MIT License. By contributing to this project, you agree to abide by the terms of this license.  
+
+# Contact
+For any inquiries, feedback, or collaboration opportunities related to the TabTransformer model, feel free to reach out to us at ardalan.dsht@gmail.com .  
+
+# Documentation
+Comprehensive documentation for the TabTransformer repository can be found in the docstrings. It includes detailed information on how to use the model, dataset handling, tokenization process, and more. If you have any questions or need further clarification, refer to the documentation or reach out to us via email.
