@@ -20,7 +20,6 @@ dataset = pd.read_csv("./test_df_titanic.csv")
 
 # Create categorical only dataframe.
 categorical_columns = ["Pclass", "Sex", "Embarked", "SibSp"]
-categorical_dataset = dataset[categorical_columns]
 # Tokenize categorical dataset.
 tokenizer = TabTransformerTokenizer()
 categorical_dataset = tokenizer.fit_transform(categorical_columns, dataset)
