@@ -51,10 +51,10 @@ class TabTransformer(nn.Module):
     def __init__(
         self,
         token_count: int,
-        model_type: str = "categorical_numerical",
-        count_of_input_categorical_features: Optional[int] = None,
+        count_of_input_categorical_features: int,
+        model_type: Optional[str] = "categorical_numerical",
         count_of_input_numerical_features: Optional[int] = None,
-        n_head: int = 4,
+        n_head: int = 1,
         dim_encoder_feedforward: int = 64,
         num_encoder_layers: int = 1,
         encoder_dropout: float = 0.1,
